@@ -47,7 +47,7 @@ class Games
         current_player.update_lives(1)
       end
       puts "P1: #{@players[0].lives}/3 vs P2: #{@players[1].lives}/3"
-      puts "#{@players[0].score} and #{@players[1].score}"
+
       switch_player
       puts '---- NEW TURN ----'
     end
